@@ -1,0 +1,52 @@
+/* Resizes parent element to fit image
+Resizes parent element to fit text*/
+.fit {
+    word-wrap: break-word; 
+
+    object-fit: contain;
+
+}
+
+/* Image crops to fit box of set size 
+Text that overflows is cropped*/
+.crop {
+    overflow: hidden;
+    white-space: nowrap;
+
+    object-fit: cover;
+}
+
+
+/* Image stretches to fill parent box of set size 
+Text that overflows will be denoted with an ellipsis [...]*/
+.stretch {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+    object-fit: fill;
+}
+
+.smaller {
+    height: 5vw;
+}
+
+.small {
+    height: 10vw;
+}
+
+.large {
+    height: 20vw;
+}
+
+.larger {
+    height: 50vw;
+}
+
+.fit-content{
+    height: fit-content;
+}
+
+.fill{
+    height: 100%;
+}
