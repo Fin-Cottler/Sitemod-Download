@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="Sitemod/sitemod.css" media="screen">
+    <link rel="stylesheet" href="index.css" media="screen">
+
+
+    <link rel="stylesheet/less" type="text/css" href="baunov-gradients\src\style.scss" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+
+    
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="preload">
+    <div class="container front">
+      <div class="row-12 fit-content">
+        <div class="col-1 fill">
+          <button id="menu" class="reverse-rotate-90-anim" onclick="menuAnim()">
+            <img src="images/menu.png">
+          </button>
+        </div>
+        <div class="col-11 fill">
+          <div id="menu-grid">
+            <div class="menu-option hide_menu">
+              <div class="menu-button">
+                About
+              </div>
+            </div>
+            <div class="menu-option hide_menu">
+              <div class="menu-button">
+                Documentation
+              </div>
+            </div>
+            <div class="menu-option hide_menu">
+                <div class="menu-button">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Fin-Cottler/Sitemod">
+                    Download
+                  </a>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+
+    <div class="foreground">
+      <div id="content">
+        <div id="title">
+          Sitemod
+        </div>
+        <div id="subtitle">
+          Simple Modular Pseudo-Style Library
+        </div>
+        <div id="button">
+          <div id="text">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Fin-Cottler/Sitemod">
+              Download
+            </a>
+          </div>
+          <span class="material-symbols-outlined">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Fin-Cottler/Sitemod">
+              arrow_downward
+            </a>
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="gradient-bg">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+        <div class="gradients-container">
+          <div class="g1"></div>
+          <div class="g2"></div>
+          <div class="g3"></div>
+          <div class="g4"></div>
+          <div class="g5"></div>
+          <div class="g6"></div>
+        </div>
+      </div>
+</body>
+</html>
