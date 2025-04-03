@@ -1,4 +1,4 @@
-function menuAnim() {
+export const menuAnim = function() {
     const menu = document.getElementById("menu").classList;
     menu.toggle("rotate-90-anim")
     menu.toggle("reverse-rotate-90-anim")
